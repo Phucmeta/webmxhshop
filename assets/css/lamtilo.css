@@ -1,0 +1,27 @@
+.checkbox:checked + img {
+    border: 3px solid #00acb5;
+    position: relative;
+    top: -3px;
+    transform: scale(1.3);
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ced6e0;
+    border-radius: 15px;
+}
+
+.border-success {
+    border: 1px solid !important;
+    border-color: #1400ed !important;
+}
+
+.border-danger {
+    border: 1px solid !important;
+    border-color: #ff0000 !important;
+} 
